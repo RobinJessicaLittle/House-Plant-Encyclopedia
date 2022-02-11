@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+
+/* background */
+ .background {
+    background: url("IMAGES/background.png");
+    /* background-size: cover; */
+    background-position: cover;
+    background-repeat: repeat;
+} 
+
+/* NAVBAR */
+li, a,button {
+    font-family:"Montserrat", sans-serif;
+    font-weight:500;
+    font-size: 16px
+}
+button {
+    color: antiquewhite;
+    background-color: darkgreen;
+    border-radius: 40%;
+    margin: 50px 25px;
+    
+} 
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10%;
+    list-style-type: none;
+}
+
+.navbar, li, a, button:hover {
+    transition: all 0.3s ease 0s;
+    color: green;
+}
+
+/* HOME PAGE */
+
+/* Home page Text*/
+.intexttexttitle1 {
+    text-decoration-thickness: 5px;
+    text-align: center;
+    color: rgb(19, 53, 19);
+    background-color: #b8cfbb;
+    border: 5px dotted rgb(89, 131, 89);
+    background-clip:border-box;
+    margin: auto;
+    width: 50%;
+   font-family:"Mukta", sans-serif;
+}
+.intexttexttitle2 {
+    text-align: center;
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.indextext1 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.indextext2 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+/* Home page images*/
+.plantcollection img{
+    border: 5px dotted rgb(89, 131, 89);
+    width: 40%;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%; 
+}
+.Familyportrait1 img{
+    border: 5px dotted rgb(89, 131, 89);
+    width: 40%;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+
+/* ENCYCLOPEDIA */
+
+/* In TextNAVBAR */
+.clicktonavigate {
+    text-align: center;
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    background-clip:border-box;
+    margin: auto;
+    width: 50%;
+    font-family:"Mukta", sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 20, 0);
+}
+.Intext-navbar {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 20, 0);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 50%;
+    font-family:"Mukta", sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+/* pictures for Encyclopedia */
+.plantpicture1 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%; 
+}
+.plantpicture2 img{
+ width: 30%;
+ border: 5px dotted rgb(89, 131, 89);
+ display: block;  
+ margin-left: auto;  
+ margin-right: auto;
+ border-radius: 50%;  
+}
+.plantpicture3 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;    
+}
+.plantpicture4 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture5 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture6 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture7 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture8 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture9 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture10 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture11 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture12 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture13 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture14 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture15 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture16 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+    
+}
+.plantpicture17 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+}
+/* Enclycolpedia Text */
+h2 {
+    text-decoration: underline;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext0 {
+    text-align: center;
+    color: white;
+    background-color: #73ad7b;
+    border: 5px dotted rgb(187, 230, 187);
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext1 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext2 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}.Planttext3 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}.Planttext4 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}.Planttext5 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}.Planttext6 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}.Planttext7 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+}.Planttext8 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext9 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext10 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext11 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext12 {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(19, 53, 19);
+    text-align: center;
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext13 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext14 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext15 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext16 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext17 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+
+
+
+/* REFERENCES */
+
+/* References Images */
+.refpicture1 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture2 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture3 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture4 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture5 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture6 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture7 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture8 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture9 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture10 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture11 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+.refpicture12 img {
+    width: 15%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 25%;
+}
+
+/* References Text */
+
+.Referencesheader {
+    text-align: center;
+    text-decoration-thickness: 5px;
+    border: 5px dotted rgb(89, 131, 89);
+    color: rgb(19, 53, 19);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext1 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext2 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext3 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext4 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext5 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext6 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext7 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext8 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext9 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext10 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext11 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
+.reftext12 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+
+}
