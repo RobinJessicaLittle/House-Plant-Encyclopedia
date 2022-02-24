@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 
@@ -19,7 +21,7 @@ li, a,button {
 button {
     color: antiquewhite;
     background-color: darkgreen;
-    border-radius: 40%;
+    border-radius: 10%;
     margin: 50px 25px;
     
 } 
@@ -97,6 +99,9 @@ button {
 }
 
 
+
+
+
 /* ENCYCLOPEDIA */
 
 /* In TextNAVBAR */
@@ -123,6 +128,18 @@ button {
     border: 2px solid rgb(255, 255, 255);
 
 }
+.button2:hover {
+    transition: all 0.3s ease 0s;
+    color:darkgreen;
+}
+.button2 {
+color: rgb(255, 255, 255);
+background-color: #73ad7b;
+border-radius: 10%;
+margin: 1px -1.5px;
+}
+
+
 
 /* pictures for Encyclopedia */
 .plantpicture1 img{
@@ -274,10 +291,83 @@ button {
     margin-right: auto;
     border-radius: 50%;  
 }
+.plantpicture18 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+}
+.plantpicture19 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+}
+.plantpicture20 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+}
+.plantpicture21 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+}
+.plantpicture22 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+}
+.plantpicture23 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+}
+.plantpicture24 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+}
+.plantpicture25 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+}
+.plantpicture26 img{
+    width: 30%;
+    border: 5px dotted rgb(89, 131, 89);
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;  
+}
 /* Enclycolpedia Text */
 h2 {
     text-decoration: underline;
     font-family:"Mukta", sans-serif;
+    color:rgb(28, 109, 28)
 }
 .Planttext0 {
     text-align: center;
@@ -451,6 +541,88 @@ h2 {
     width: 60%;
     font-family:"Mukta", sans-serif;
 }
+.Planttext18 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+    font-family:"Mukta", sans-serif;
+}
+.Planttext19 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+}
+.Planttext20 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+}
+.Planttext21 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+}
+.Planttext22 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+}
+.Planttext23 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+}
+.Planttext24 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+}
+.Planttext25 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+}
+.Planttext26 {
+    text-align: center;
+    color: rgb(19, 53, 19);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #b8cfbb;
+    background-clip:border-box;
+    margin: auto;
+    width: 60%;
+}
 
 
 
@@ -464,7 +636,7 @@ h2 {
     margin-left: auto;  
     margin-right: auto;
     border-radius: 25%;
-}
+} 
 .refpicture2 img {
     width: 15%;
     border: 5px dotted rgb(89, 131, 89);
@@ -578,7 +750,7 @@ h2 {
     width: 60%;
     font-family:"Mukta", sans-serif;
 
-}
+} 
 .reftext2 {
     text-align: center;
     color: rgb(19, 53, 19);
@@ -699,4 +871,40 @@ h2 {
     width: 60%;
     font-family:"Mukta", sans-serif;
 
+} 
+
+/* References Trying flex box
+
+.container_1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
+
+.refpicture1 img {
+    align-items: center;
+    width: 20%;
+    border: 5px dotted rgb(89, 131, 89);
+    margin-left: 100px;  
+    margin-right: auto;
+    display: block;  
+    border-radius: 25%;
+    flex:1
+}
+
+.reftext1 {
+align-items: center;
+flex-basis: 80%;
+text-align: center;
+margin-left: 150px ;  
+margin-right: auto;
+color: rgb(19, 53, 19);
+border: 2px solid rgb(255, 255, 255);
+background-color: #b8cfbb;
+background-clip:border-box;
+font-family:"Mukta", sans-serif;
+flex:1
+    
+}
+ */
